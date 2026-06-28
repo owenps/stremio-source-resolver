@@ -17,7 +17,7 @@ and normalizes returned streams into ranked source candidates with quality, size
 - movie sources only
 - caller supplies authorized addon URLs
 - no hardcoded public addon URLs
-- no TorBox/Discord/Nuvio integration
+- resolver library only; downstream apps decide what to do with candidates
 - no downloading
 
 ## Install locally
