@@ -46,7 +46,7 @@ asyncio.run(main())
 
 ## Torrentio-compatible example
 
-Pass your own configured Torrentio manifest URL via env var. Do not commit private/debrid tokens.
+Use the [Torrentio configure page](https://torrentio.strem.fun/configure) to generate your own manifest URL, then pass it via env var. Do not commit private/debrid tokens.
 
 ```bash
 export TORRENTIO_MANIFEST_URL="https://torrentio.example/config/manifest.json"
