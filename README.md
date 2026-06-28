@@ -43,6 +43,17 @@ async def main():
 asyncio.run(main())
 ```
 
+
+## Torrentio-compatible example
+
+Pass your own configured Torrentio manifest URL via env var. Do not commit private/debrid tokens.
+
+```bash
+export TORRENTIO_MANIFEST_URL="https://torrentio.example/config/manifest.json"
+export IMDB_ID="tt0111161"
+python examples/torrentio.py
+```
+
 ## Notes
 
 Use only with content and providers you are authorized to access.
