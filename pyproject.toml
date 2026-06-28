@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stremio-source-resolver"
+version = "0.1.0"
+description = "Resolve movie sources from authorized Stremio addon endpoints."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["aiohttp>=3.9"]
+license = { text = "MIT" }
+authors = [{ name = "Owen Smith" }]
+keywords = ["stremio", "torrentio", "resolver", "media"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stremio_source_resolver"]
