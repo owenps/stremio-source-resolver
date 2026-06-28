@@ -14,11 +14,7 @@ and normalizes returned streams into ranked source candidates with quality, size
 
 ## Scope
 
-- movie sources only
-- caller supplies authorized addon URLs
-- no hardcoded public addon URLs
-- resolver library only; downstream apps decide what to do with candidates
-- no downloading
+Resolver library only; downstream apps decide what to do with candidates.
 
 ## Install locally
 
