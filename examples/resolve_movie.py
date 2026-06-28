@@ -8,7 +8,7 @@ from stremio_source_resolver import AddonConfig, StremioSourceResolver
 
 async def main() -> None:
     addon_url = os.environ["STREMIO_ADDON_URL"]
-    imdb_id = os.environ.get("IMDB_ID", "tt0111161")
+    imdb_id = os.environ.get("IMDB_ID", "tt0062622")
 
     resolver = StremioSourceResolver([
         AddonConfig(name="authorized-addon", base_url=addon_url),

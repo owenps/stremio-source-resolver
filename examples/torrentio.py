@@ -8,7 +8,7 @@ from stremio_source_resolver import AddonConfig, StremioSourceResolver
 
 async def main() -> None:
     manifest_url = os.environ["TORRENTIO_MANIFEST_URL"]
-    imdb_id = os.environ.get("IMDB_ID", "tt0111161")
+    imdb_id = os.environ.get("IMDB_ID", "tt0062622")
 
     resolver = StremioSourceResolver([
         AddonConfig(name="torrentio", base_url=manifest_url),

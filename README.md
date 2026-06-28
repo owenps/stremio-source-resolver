@@ -36,7 +36,7 @@ async def main():
     resolver = StremioSourceResolver([
         AddonConfig(name="authorized-addon", base_url="https://example.invalid/addon-config")
     ])
-    candidates = await resolver.resolve_movie("tt0111161")
+    candidates = await resolver.resolve_movie("tt0062622")
     for c in candidates[:5]:
         print(c.option_label, c.display_name)
 
@@ -50,7 +50,7 @@ Use the [Torrentio configure page](https://torrentio.strem.fun/configure) to gen
 
 ```bash
 export TORRENTIO_MANIFEST_URL="https://torrentio.example/config/manifest.json"
-export IMDB_ID="tt0111161"
+export IMDB_ID="tt0062622"
 python examples/torrentio.py
 ```
 
